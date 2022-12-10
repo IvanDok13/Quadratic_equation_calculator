@@ -29,8 +29,8 @@ $(document).ready(function() {
                 $('.2').text('');
              } else if(d > 0) {
 
-                let x1 = (-b + Math.sqrt(d)) / 2 * a;
-                let x2 = (-b - Math.sqrt(d)) / 2 * a;
+                let x1 = (-b + Math.sqrt(d)) / (2 * a);
+                let x2 = (-b - Math.sqrt(d)) / (2 * a);
 
                 console.log(x1, x2);
 
