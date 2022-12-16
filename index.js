@@ -21,22 +21,22 @@ $(document).ready(function() {
                   let x = c / b;
 
                   $('.1').text(x);
-           } else if (a !== 0 && b === 0) {
+          } else if (a !== 0 && b === 0) {
                   let x = (c / a) ** 0.5;
 
              $('.1').text(x);
-           } else if(d < 0) {
+          } else if (d < 0) {
                
                   $('.1').text('No solutions');
                   $('.2').text('No solutions');
-           } else if(d === 0) {
+          } else if(d === 0) {
 
                   let x = -b / 2 * a;
                   console.log(x);
 
                   $('.1').text(x);
                   $('.2').text('');
-           } else if(d > 0) {
+          } else if(d > 0) {
 
                   let x1 = (-b + Math.sqrt(d)) / (2 * a);
                   let x2 = (-b - Math.sqrt(d)) / (2 * a);
